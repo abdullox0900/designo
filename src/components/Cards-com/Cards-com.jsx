@@ -1,14 +1,19 @@
 import "./Cards-com.scss";
+import Icon from "../../assets/svg/right-icon.svg"
 
 function CardsCom() {
     return (
         <div className="container">
             <ul className="cards-list">
                 <li className="cards-item">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
-                    <p></p>
-                    <img src="" alt="" />
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h2>APP DESIGN </h2>
+                    <p>VIEW PROJECTS</p>
+                    <img src={Icon} alt="icon" />
+                </li>
+                <li className="cards-item">
+                    <h2>GRAPHIC DESIGN</h2>
+                    <p>VIEW PROJECTS</p>
+                    <img src={Icon} alt="icon" />
                 </li>
             </ul>
         </div>

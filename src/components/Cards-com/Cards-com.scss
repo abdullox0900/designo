@@ -1,8 +1,55 @@
-.cards-item {
-    width: 541px;
-    height: 308px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: #000;
-    background-image: url(../../assets/img/App-design.png);
+.cards-list {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+
+    .cards-item {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 541px;
+        height: 308px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: #000;
+        background-image: url(../../assets/img/App-design.png);
+
+        &:nth-child(2) {
+            background-image: url(../../assets/img/nature.png);
+        }
+
+        h2 {
+            color: #FFF;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 48px;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            color: #FFF;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        img {
+            position: absolute;
+            width: 8px;
+            height: 10px;
+            right: 30%;
+            bottom: 36%;
+
+        }
+    }
+
+
 }
