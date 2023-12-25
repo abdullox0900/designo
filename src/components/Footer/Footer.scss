@@ -42,16 +42,29 @@ footer {
     .fotter-inner {
         display: flex;
         justify-content: space-between;
+       padding-bottom: 72px;
 
-        p{
-            width: 175px;
-        }
-
-        .images {
-            margin-top: 65px;
+        p {
+            width: 180px;
+            opacity: 0.5;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
         }
     }
-     
+
+    .images {
+        margin-top: 45px;
+
+
+        img {
+            margin-right: 10px;
+        }
+
+    }
+
 
 
 }
