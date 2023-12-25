@@ -14,6 +14,7 @@ function CardsCom() {
                     <h2>GRAPHIC DESIGN</h2>
                     <p>VIEW PROJECTS</p>
                     <img src={Icon} alt="icon" />
+                    <p></p>
                 </li>
             </ul>
         </div>
