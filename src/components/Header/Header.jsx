@@ -2,9 +2,10 @@ import "./Header.scss";
 
 function Header() {
     return(
-        <>
-           Header
-        </>
+        <div className="container">
+           
+           <div className="nav"></div>
+        </div>
     )
 }
 
