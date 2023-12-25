@@ -6,6 +6,7 @@ function App() {
     <>
        Hello Muhammadamin
        <h2>Hello Saidikrom</h2>
+       <h3>Hi 👋 Jasurbek</h3>
     </>
   )
 }
