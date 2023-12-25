@@ -2,9 +2,11 @@ import "./Footer.scss";
 
 function Footer() {
     return(
-        <>
-           Footer
-        </>
+        
+           <footer>
+            
+           </footer>
+        
     )
 }
 
